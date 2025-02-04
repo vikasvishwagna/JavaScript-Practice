@@ -12,3 +12,4 @@ animal.area = function(){
 }
 animal.nature();*/
 
+var a = 10;
