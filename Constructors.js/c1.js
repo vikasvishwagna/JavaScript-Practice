@@ -11,6 +11,3 @@ animal.area = function(){
   console.log("lives in Bengal");
 }
 animal.nature();*/
-
-var a = 10;
-var b = 10;
