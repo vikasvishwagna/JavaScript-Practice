@@ -1,3 +1,7 @@
+//ES6 features
+
+//1.Destructuring
+
 const employeeDetails = {
   firstName : "Rachin",
   lastName : "Ravindra",
@@ -13,10 +17,13 @@ const employeeDetails = {
   const {
     firstName,
     lastName,
-    jersyNumber,
+    jersyNumber: shirtNumber,// if u want u can change the name of the variable.
     country,
     profssion
 
   } = employeeDetails;
 
-  console.log(`firstName,lastName, jersyNumber, country,profssion`);
+  console.log(firstName,lastName, shirtNumber, country,profssion);
+
+ 
+
