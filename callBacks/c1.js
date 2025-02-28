@@ -7,4 +7,4 @@ function hello(){
   console.log(`this is a hello function`);
 }
 
-greet("name",hello);
+greet("arjun",hello);
