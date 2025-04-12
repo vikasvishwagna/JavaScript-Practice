@@ -1,6 +1,4 @@
 
-
-
 let messages = [
   { from: "Vikas", text: "Hey!", isRead: false },
   { from: "John", text: "Hi!", isRead: true },
