@@ -1,6 +1,6 @@
 let person = {
   name : 'ajay',
-  class : 10,
+  'class' : 10,
   school : "HTMLVideoElement",
   "roll no" : 56,
   'fav subj': "science"

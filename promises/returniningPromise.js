@@ -3,7 +3,7 @@ function delayedMessage (){
     //here resolve and reject are functions
     setTimeout(()=>{
       console.log("appears after 2 seconds");
-      resolve();
+      reject();
     },2000);
   })
   return promise;

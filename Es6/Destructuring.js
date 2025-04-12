@@ -25,5 +25,5 @@ const employeeDetails = {
 
   console.log(firstName,lastName, shirtNumber, country,profssion);
 
- 
+ //use chatgpt for better understanding, destructring in array, obj, fun etc... 
 

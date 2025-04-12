@@ -12,6 +12,7 @@ let numGreaterThanOne = num.find(function(ele){
   return ele > 1;
 });
 console.log(numGreaterThanOne);//it only gives one ele.
+
 //4.Use filter() when you need to remove elements based on a condition and doesnot change arr.
 console.log("filter function");
 let allNumGreaterThanOne = num.filter(function(ele){
