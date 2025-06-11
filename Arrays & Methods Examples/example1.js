@@ -36,17 +36,17 @@ let reduceArr = [1, 2, 3, 4];
 let total = reduceArr.reduce((acc, curr) => acc + curr, 0);
 console.log("reduce:", total); // 10
 
-// 8. find()
+// 8. find()Returns the first item that matches a condition.
 let findArr = [1, 3, 5, 7];
 let found = findArr.find(n => n > 4);
 console.log("find:", found); // 5
 
-// 9. some()
+// 9. some()Checks if at least one item matches a condition
 let someArr = [1, 2, 3];
 let hasEven = someArr.some(n => n % 2 === 0);
 console.log("some:", hasEven); // true
 
-// 10. every()
+// 10. every()Checks if all items match a condition.
 let everyArr = [2, 4, 6];
 let allEven = everyArr.every(n => n % 2 === 0);
 console.log("every:", allEven); // true

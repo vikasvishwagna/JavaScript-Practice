@@ -27,3 +27,11 @@ const employeeDetails = {
 
  //use chatgpt for better understanding, destructring in array, obj, fun etc... 
 
+//function destructuring
+
+function printDetails({name, age}){
+  console.log(`userName:${name}, userAge:${age}`);
+}
+
+const user = {name:'vikas', age:24};
+printDetails(user);

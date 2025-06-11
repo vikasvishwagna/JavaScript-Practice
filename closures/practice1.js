@@ -16,5 +16,5 @@ function x(){
 }
 var z = x();//x returns the whole y fun.
 console.log(z);
-z();
-x()();// other way.
+ z();
+ x()();// other way.

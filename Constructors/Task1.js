@@ -20,6 +20,7 @@ function Product(name, price, description, category){
   Product.prototype.displayInfo = function (){
     return "Product: "+this.name+","+" Price: "+this.price+","+" Category: "+this.category;
   }
+  
 }
 
 const product1 = new Product("Laptop", 1200, "Powerful laptop for work and gaming", "Electronics");

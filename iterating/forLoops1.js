@@ -11,6 +11,9 @@ nums.forEach(function(ele){
   console.log(ele);
 });
 
+nums.forEach((n)=>{
+  console.log(n);
+})
 
 //3.for in loop. in simple this gives the idx, so we have to print the val.
 console.log("---for in loop.---");
