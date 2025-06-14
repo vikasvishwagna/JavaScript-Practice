@@ -1,6 +1,6 @@
 //Promises 
 let myPromise = new Promise(function(resolve,reject){//creating promises
-  var isWorkDone = true;
+  var isWorkDone = false;
   if(isWorkDone){
     resolve("isWorkDone is true");
   }else{
@@ -20,7 +20,7 @@ async function goo() {
     let message = await myPromise;
     console.log(message);
   }catch(e){
-    console.log(e);
+    console.log("reject msg: " + e);
   }
 }
 goo();
@@ -28,7 +28,7 @@ goo();
 //method 3: same as method 2 suing arrow fun.
 const p1 = new Promise(function(resolve,reject){
   setTimeout(function(){
-    resolve("hello method 3!!")
+    reject("hello method 3!!")
   },3000)
 });
 

@@ -1,7 +1,7 @@
 function orderPizza(callback){
   setTimeout(()=>{
     console.log("i need chicken tikka pizza!!");
-    reviewPizza(callback);//it will not wait, as it takes 6sec, it excuted the next fun.
+    reviewPizza();//it will not wait, as it takes 6sec, it excuted the next fun.
     callback();
   },3000);
 }
@@ -17,5 +17,5 @@ function reviewPizza(){
 }
 
 console.log("calling dominos...");
-orderPizza(eatPizza);//it will not wait.
+orderPizza(eatPizza);//this is async fn so it executes the next line.
 console.log("finally done eating and reviewing the pizza");
