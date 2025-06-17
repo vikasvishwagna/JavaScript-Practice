@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Color Picker</title>
+</head>
+<body style="text-align: center; padding-top: 50px;">
+  <h2 id="heading">Pick a Color!</h2>
+
+  <button class="color-btn" data-color="red">Red</button>
+  <button class="color-btn" data-color="blue">Blue</button>
+  <button class="color-btn" data-color="green">Green</button>
+
+  <script>
+    const buttons = document.querySelectorAll(".color-btn");
+
+    buttons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        const chosenColor = btn.getAttribute("data-color");
+        document.body.style.backgroundColor = chosenColor;
+        document.getElementById("heading").textContent = `You picked ${chosenColor}`;
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<style>
+  .highlight {
+    background-color: yellow;
+    padding: 10px;
+    font-weight: bold;
+  }
+</style>
+
+<p id="text">Click the buttons below!</p>
+
+<button onclick="addClass()">Add</button>
+<button onclick="removeClass()">Remove</button>
+<button onclick="toggleClass()">Toggle</button>
+<button onclick="checkClass()">Check</button>
+
+<script>
+  const para = document.getElementById("text");
+
+  function addClass() {
+    para.classList.add("highlight");
+  }
+
+  function removeClass() {
+    para.classList.remove("highlight");
+  }
+
+  function toggleClass() {
+    para.classList.toggle("highlight");
+  }
+
+  function checkClass() {
+    if (para.classList.contains("highlight")) {
+      alert("Highlight class is present!");
+    } else {
+      alert("Highlight class is NOT present.");
+    }
+  }
+</script>
